@@ -17,6 +17,7 @@ YouTube Data Harvesting and Warehousing is a project that intends to provide use
 **YOUTUBE DATA SCRAPPING AND ITS ETHICAL PERSPECTIVE:** When engaging in the scraping of YouTube content, it is crucial to approach it ethically and responsibly. Respecting YouTube's terms and conditions, obtaining appropriate authorization, and adhering to data protection regulations are fundamental considerations. The collected data must be handled responsibly, ensuring privacy, confidentiality, and preventing any form of misuse or misrepresentation. Furthermore, it is important to take into account the potential impact on the platform and its community, striving for a fair and sustainable scraping process. By following these ethical guidelines, we can uphold integrity while extracting valuable insights from YouTube data.
 
 **REQUIRED LIBRARIES:**
+
 1.googleapiclient.discovery
 2.streamlit
 3.psycopg2
@@ -25,8 +26,6 @@ YouTube Data Harvesting and Warehousing is a project that intends to provide use
 
 **FEATURES:** The following functions are available in the YouTube Data Harvesting and Warehousing application: Retrieval of channel and video data from YouTube using the YouTube API.
 Storage of data in a MongoDB database as a data lake.
-
 Migration of data from the data lake to a SQL database for efficient querying and analysis.
-
 Search and retrieval of data from the SQL database using different search options.
 
